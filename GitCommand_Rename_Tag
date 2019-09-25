@@ -1,0 +1,12 @@
+git tag new old
+git tag -d old
+git push origin :refs/tags/old
+git push --tags
+
+
+pour renommer JIRA_14388_and_14391 :
+
+git tag 20190925_Release_JIRA_14388_14391 JIRA_14388_and_14391
+git tag -d JIRA_14388_and_14391
+git push origin :refs/tags/JIRA_14388_and_14391
+git push --tags
