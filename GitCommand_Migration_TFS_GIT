@@ -1,0 +1,28 @@
+Se placer dans le nouveau repo :
+1- execute clone
+F:\Install\GitTfs-0.29.0/git-tfs clone http://tfs15.intranatixis.com/tfs/Natixis "$/AOB_MOCA/MocaDigital/DEV"  --gitignore="F:\DEV\RepoGit\.gitignore"  -t=-1
+
+2- Create Repo Git 
+
+3- add remote Git (with git bash)
+git remote add origin http://tfs15.intranatixis.com/tfs/Natixis/V69_eTreso/_git/Treasury.RtService
+
+
+5-Push 
+git push -u origin --all
+
+6-if error: unable to rewind rpc post data - try increasing http.postBuffer
+git config http.postBuffer 524288000
+piuis refaire etape 5.
+
+
+
+
+pour autre chose :
+push d'un commit
+ git push -u origin d0f5e97d9310eb4f11a8d4327af62ec66580d1cf:refs/heads/master
+ 
+ 
+ 
+ 
+ 
